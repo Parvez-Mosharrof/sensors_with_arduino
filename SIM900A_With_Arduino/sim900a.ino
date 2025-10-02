@@ -76,7 +76,7 @@ void ReceiveMessage()
 
 void MakeCall()
 {
-  mySerial.println("ATD+60XXXXXXXXX;"); // ATDxxxxxxxxxx; -- watch out here for semicolon at the end!!
+  mySerial.println("ATD+880XXXXXXXXX;"); // ATDxxxxxxxxxx; -- watch out here for semicolon at the end!!
   Serial.println("Calling  "); // print response over serial port
   delay(1000);
 }
